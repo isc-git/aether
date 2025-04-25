@@ -1,5 +1,6 @@
 use crate::ray;
 
+#[derive(Debug)]
 pub struct Triangle {
     a: nalgebra::Vector3<f32>,
     b: nalgebra::Vector3<f32>,

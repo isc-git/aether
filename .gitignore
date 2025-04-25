@@ -1,5 +1,16 @@
 /target
 
 Cargo.lock
-*.tiff
 *.log
+
+# data formats
+*.tiff
+*.svg
+*.gif
+
+# data storage
+data
+
+# mac temp files
+.DS_Store
+

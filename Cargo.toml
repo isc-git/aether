@@ -2,3 +2,7 @@
 resolver = "2"
 members = ["crates/*"]
 
+[profile.release-debug]
+inherits = "release"
+debug = true
+
